@@ -1,0 +1,20 @@
+.Navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contenedorNavbar{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 120px;
+    height:120px;
+}
+
+
+.tittle{
+    text-align: center;
+}
