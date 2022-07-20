@@ -10,7 +10,7 @@ function NavBar(){
                 </div>  
             </div>
             <ul className="nav nav-tabs text-center d-flex justify-content-center align-items-center">
-            <li className="nav-item">
+            <li className="nav-item danger">
                 <a className="nav-link active" aria-current="page" href="#">Grupo A</a>
             </li>
             <li className="nav-item">
@@ -38,7 +38,5 @@ function NavBar(){
         </div>
     )
 }
-
-
 export default NavBar;
 
