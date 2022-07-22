@@ -2,7 +2,7 @@ import './NavBar.css';
 function NavBar(){
     return(
         //Fragment
-        <div classNameName="NavBar">
+        <div className="NavBar">
             <h1 className='tittle'> Mundialistas</h1>
             <div className='contenedorNavbar'>
                 <div className='conteinerLogo'>

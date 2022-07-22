@@ -1,0 +1,14 @@
+.card{
+    width: 255px;
+    margin-left: 15px;
+}
+
+.card img{
+    height: 40vh;
+    width: 250px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content:space-between;
+}
