@@ -1,42 +1,37 @@
 import './NavBar.css';
+
+function Group(props){
+    return(
+        <li className="nav-item danger">
+            <a className="nav-link" aria-current="page" href={props.href}> Grupo {props.g} <i class="fa-solid fa-futbol"></i></a>
+        </li>
+    )
+};
+
 function NavBar(){
     return(
         //Fragment
         <div className="NavBar">
-            <h1 className='tittle'> Mundialistas</h1>
+            <h1 className='tittle'> Mundialistas <i class="fa-solid fa-trophy"></i></h1>
             <div className='contenedorNavbar'>
                 <div className='conteinerLogo'>
                     <img className="logo" src='./assets/qatar.png'/>   
                 </div>  
             </div>
             <ul className="nav nav-tabs text-center d-flex justify-content-center align-items-center">
-            <li className="nav-item danger">
-                <a className="nav-link active" aria-current="page" href="#">Grupo A</a>
-            </li>
-            <li className="nav-item">
-             <a className="nav-link" href="#">Grupo B</a>
-            </li>
-            <li className="nav-item">
-             <a className="nav-link" href="#">Grupo C</a>
-            </li>
-            <li className="nav-item">
-             <a className="nav-link" href="#">Grupo D</a>
-            </li>
-            <li className="nav-item">
-             <a className="nav-link" href="#">Grupo E</a>
-            </li>
-            <li className="nav-item">
-             <a className="nav-link" href="#">Grupo F</a>
-            </li>
-            <li className="nav-item">
-             <a className="nav-link" href="#">Grupo G</a>
-            </li>
-            <li className="nav-item">
-             <a className="nav-link" href="#">Grupo H</a>
-            </li>
+                <Group g="A"/>
+                <Group g="B"/>
+                <Group g="C"/>
+                <Group g="D"/>
+                <Group g="E"/>
+                <Group g="F"/>
+                <Group g="G"/>
+                <Group g="H"/>
             </ul>    
         </div>
     )
 }
 export default NavBar;
+
+
 
