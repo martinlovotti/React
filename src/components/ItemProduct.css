@@ -1,0 +1,34 @@
+.item-product{
+    margin: 5px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-product img{
+    width: 150px;
+    height:150px
+}
+
+.detail-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail-product p{
+    text-align: center;
+    margin: 2px;
+}
+
+.countProd{
+    display: flex;
+    align-items: center;
+}
+
+.countProd p{
+    margin: 15px;
+}
+.countProd button {
+    margin: 15px;
+}
